@@ -1,0 +1,32 @@
+version: '3'
+networks:
+  app-tier:
+    driver: bridge
+volumes:
+  rdosRm-pgdata-base:
+services:
+  RDOS_RM_postgres:
+    container_name: RDOS_RM_postgres
+    image: postgres:14
+    ports:
+      - "8694:5432"
+    volumes:
+      - rdosRm-pgdata-base:/var/lib/postgresql/data
+    restart: always
+    environment:
+      POSTGRES_USER: postgresrdos
+      POSTGRES_PASSWORD: PAssword65464
+      POSTGRES_DB: rdos_system
+      PG_DATA: /var/lib/postgresql/data
+    networks:
+      - app-tier
+  RDOS_RM_adminer:
+    container_name: RDOS_RM_adminer
+    image: adminer
+    depends_on:
+      - RDOS_RM_postgres
+    restart: always
+    ports:
+      - 8609:8080
+    networks:
+      - app-tier

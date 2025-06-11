@@ -1,0 +1,36 @@
+{
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "ProgramCode": "LINE-AMT",
+  "ProgramsType": "Promotion",
+  "Description": "Promotion Line AMT",
+  "ItemScope": "LINE",
+  "BuyType": "AMOUNT",
+  "GivingType": "FREEITEM",
+  "IsDeleted": false,
+  "Temp_ProgramsDetails": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ProgramDetailsKey": "ProgramCustomersKeyplaf",
+      "ProgramsCode": "LINE-AMT",
+      "Level": "1",
+      "Description": "string",
+      "Type": "According box/carton",
+      "RequiredQuantities": 2,
+      "RequiredAmount": 0,
+      "IsDeleted": false,
+      "Temp_ProgramDetailsItemsGroup": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "ProgramDetailsItemsGroupKey": "ProgramDetailsItemsGroupKeyplqaf",
+          "Description": "Bruh04",
+          "ProgramDetailsKey": "ProgramCustomersKeyplaf",
+          "ItemGroupCode": "0175q1l2t3",
+          "UOMCode": "THUNG",
+          "IsRequired": false,
+          "FixedQuantities": 0,
+          "IsDeleted": false
+        }
+      ]
+    }
+  ]
+}

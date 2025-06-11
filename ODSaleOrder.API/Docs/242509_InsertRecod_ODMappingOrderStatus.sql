@@ -1,0 +1,2 @@
+INSERT INTO "ODMappingOrderStatus" ("Id", "SaleOrderStatus", "OneShopOrderStatus", "IsDeleted", "CreatedBy", "CreatedDate", "UpdatedBy", "UpdatedDate", "ImportStatus", "OwnerType", "OwnerCode", "SaleOrderStatusName", "OneShopOrderStatusName") VALUES
+(uuid_generate_v4(),	'SO_ST_FAILED',	'OS_ST_11',	'f',	'KhoaNguyen',	'2024-09-25 00:00:00.022985',	NULL,	NULL,	NULL,	'SYSTEM',	NULL,	'Giao hàng thất bại',	'Giao hàng thất bại');

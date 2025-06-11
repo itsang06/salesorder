@@ -1,0 +1,159 @@
+{
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "ProgramCustomersKey": "ProgramCustomersKey01",
+  "ProgramCode": "PM-LINE-QT-FREE-01",
+  "ProgramsType": "Promotion",
+  "ProgramsDescription": "PM-LINE - QUANTITY - FREE ITEM - 01",
+  "ProgramsItemScope": "LINE",
+  "ProgramsBuyType": "QUANTITY",
+  "ProgramsGivingType": "FREEITEM",
+  "CustomerId": "7fb7da06-d16e-49e8-a1e0-72dd2163495a",
+  "CustomerCode": "C2022070211",
+  "ActualAmount": 0,
+  "RemainAmount": 0,
+  "ActualQuantities": 0,
+  "RemainQuantities": 0,
+  "IsDeleted": false,
+  "Temp_ProgramsCustomerDetails": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ProgramCustomersDetailCode": "ProgramCustomersDetailCode02",
+      "ProgramCustomersKey": "ProgramCustomersKey01",
+      "ProgramDetailsKey": "01-PM-LINE-QT-FREE-01",
+      "SaleOrderRefNumber": "202207050001",
+      "RemainAmount": 0,
+      "RemainQuantities": 0,
+      "SuggestQantities": 0,
+      "DetailLevel": "1",
+      "DetailDescription": "Suất 1",
+      "DetailType": "According box/carton",
+      "DetailQuantities": 30,
+      "DetailAmount": 0,
+      "IsDeleted": false,
+      "Temp_ProgramCustomerItemsGroup": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "ProgramCustomerItemsGroupCode": "ProgramCustomerItemsGroupCode01",
+          "ProgramCustomersDetailCode": "ProgramCustomersDetailCode02",
+          "ProgramDetailsItemsGroupKey": "20220705",
+          "Quantities": 31,
+          "Amount": 0,
+          "Description": "Quần què test quài",
+          "ItemGroupCode": "0175q1l2t3",
+          "UOMCode": "THUNG",
+          "IsRequired": true,
+          "FixedQuantities": 0,
+          "IsDeleted": false
+        }
+      ]
+    }
+  ]
+}
+
+
+{
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "ProgramCode": "PM-LINE-QT-FREE-01",
+  "ProgramsType": "Promotion",
+  "Description": "PM-LINE - QUANTITY - FREE ITEM - 01",
+  "ItemScope": "LINE",
+  "BuyType": "QUANTITY",
+  "GivingType": "FREEITEM",
+  "IsDeleted": false,
+  "Temp_ProgramsDetails": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ProgramDetailsKey": "01-PM-LINE-QT-FREE-01",
+      "ProgramsCode": "PM-LINE-QT-FREE-01",
+      "Level": "1",
+      "Description": "Suất 1",
+      "Type": "According box/carton",
+      "RequiredQuantities": 30,
+      "RequiredAmount": 0,
+      "IsDeleted": false,
+      "Temp_ProgramDetailsItemsGroup": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "ProgramDetailsItemsGroupKey": "20220705",
+          "Description": "ItemGroup số 1",
+          "ProgramDetailsKey": "01-PM-LINE-QT-FREE-01",
+          "ItemGroupCode": "0175q1l2t3",
+          "UOMCode": "THUNG",
+          "IsRequired": true,
+          "FixedQuantities": 0,
+          "IsDeleted": false
+        }
+      ],
+      "Temp_ProgramDetailReward": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "ProgramDetailRewardCode": "RW001",
+          "ProgramDetailsKey": "01-PM-LINE-QT-FREE-01",
+          "Type": "ITEM",
+          "ItemCode": "130000318",
+          "UOMCode": "LOC",
+          "Amount": 0,
+          "DiscountPercented": 0,
+          "IsDeleted": false
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+// LINE - QT - FREE
+
+{
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "ProgramCode": "PM-LINE-QT-FREE-02",
+  "ProgramsType": "Promotion",
+  "Description": "PM-LINE - QUANTITY - FREE ITEM - 01",
+  "ItemScope": "LINE",
+  "BuyType": "QUANTITY",
+  "GivingType": "FREEITEM",
+  "IsDeleted": false,
+  "Temp_ProgramsDetails": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ProgramDetailsKey": "01-PM-LINE-QT-FREE-02",
+      "ProgramsCode": "PM-LINE-QT-FREE-02",
+      "Level": "1",
+      "Description": "Suất 1",
+      "Type": "According box/carton",
+      "RequiredQuantities": 30,
+      "RequiredAmount": 0,
+      "IsDeleted": false,
+      "Temp_ProgramDetailsItemsGroup": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "ProgramDetailsItemsGroupKey": "2022070501",
+          "Description": "ItemGroup số 1",
+          "ProgramDetailsKey": "01-PM-LINE-QT-FREE-02",
+          "ItemGroupCode": "0175q1l2t3",
+          "UOMCode": "THUNG",
+          "IsRequired": true,
+          "FixedQuantities": 0,
+          "IsDeleted": false
+        }
+      ],
+      "Temp_ProgramDetailReward": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "ProgramDetailRewardCode": "RW002",
+          "ProgramDetailsKey": "01-PM-LINE-QT-FREE-02",
+          "Type": "ITEM",
+          "ItemCode": "130000318",
+          "UOMCode": "LOC",
+          "Amount": 0,
+          "DiscountPercented": 0,
+          "IsDeleted": false
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,19 @@
+version: '3.4'
+services:
+# API
+  odsoapi:
+    image: ${DOCKER_REGISTRY-}odsoapi
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: '250M'
+    container_name: 'odsoapi'    
+    build:
+      context: .
+      dockerfile: ODSaleOrder.API/Dockerfile
+volumes:
+  odinvapi:  
+networks:
+  ones_network:
+    external: true

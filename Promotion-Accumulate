@@ -1,0 +1,101 @@
+// Accumulate Qty
+{
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "ProgramCode": "ACCUMULATE-QTY",
+  "ProgramsType": "Accumulate",
+  "Description": "Accumulate Quantity",
+  "ItemScope": "GROUP",
+  "BuyType": "QUANTITY",
+  "GivingType": "FREEITEM",
+  "IsDeleted": false,
+  "Temp_ProgramsDetails": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ProgramDetailsKey": "ProgramCustomersKey04",
+      "ProgramsCode": "ACCUMULATE-QTY",
+      "Level": "1",
+      "Description": "string",
+      "Type": "According box/carton",
+      "RequiredQuantities": 50,
+      "RequiredAmount": 700000,
+      "IsDeleted": false,
+      "Temp_ProgramDetailsItemsGroup": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "ProgramDetailsItemsGroupKey": "ProgramDetailsItemsGroupKey04",
+          "Description": "Bruh04",
+          "ProgramDetailsKey": "ProgramCustomersKey04",
+          "ItemGroupCode": "0175q1l2t3",
+          "UOMCode": "THUNG",
+          "IsRequired": false,
+          "FixedQuantities": 0,
+          "IsDeleted": false
+        }
+      ]
+    }
+  ]
+}
+
+// Accumulate AMT
+{
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "ProgramCode": "ACCUMULATE-AMT",
+  "ProgramsType": "Accumulate",
+  "Description": "Accumulate Quantity",
+  "ItemScope": "GROUP",
+  "BuyType": "AMOUNT",
+  "GivingType": "FREEITEM",
+  "IsDeleted": false,
+  "Temp_ProgramsDetails": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ProgramDetailsKey": "ProgramCustomersKey05",
+      "ProgramsCode": "ACCUMULATE-AMT",
+      "Level": "1",
+      "Description": "string",
+      "Type": "According box/carton",
+      "RequiredQuantities": 50,
+      "RequiredAmount": 700000,
+      "IsDeleted": false,
+      "Temp_ProgramDetailsItemsGroup": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "ProgramDetailsItemsGroupKey": "ProgramDetailsItemsGroupKey05",
+          "Description": "Bruh05",
+          "ProgramDetailsKey": "ProgramCustomersKey05",
+          "ItemGroupCode": "0175q1l2t3",
+          "UOMCode": "THUNG",
+          "IsRequired": false,
+          "FixedQuantities": 0,
+          "IsDeleted": false
+        }
+      ]
+    }
+  ]
+}
+
+
+
+Require 
+
+Thông tin đang có
+DSA
+  SaleEmployee
+  
+  SIC
+  
+  
+  
+  DSA manager
+
+Cần:
+Từ DSA quay ngược về cây sale org 
+ - Dật ngược về các node cha
+  - kiểm tra trong các node cha dó, có sale employee nào đang là isbase và isSICbase của ngành hàng không, nếu có thì lấy
+
+
+
+Lấy item theo ngành hàng distributor:
+Login vào có đc thông DSA => danh sách SIC
+  từ SIC => sẽ lấy đc  thông tin SIC này đang gán cho LEvel nào
+   ==> từ Level này lấy đc danh sách item Attribute => Load theo item Attribute

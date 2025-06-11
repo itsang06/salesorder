@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  odsoapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=prod
+      - ASPNETCORE_URLS=http://+:80
+      - CONNECTION=123
+      - PRINCIPALCODE=FMCG
+      - IS_DEPLOY=true
+    ports:
+      - "5347:80"
